@@ -7,7 +7,7 @@ const render = (root) =>{
   const update = function(){
     render(root);
   }
-  //wrapper.append(Header(update));
+  wrapper.append(ScreenOne(update));
   root.append(wrapper);
 }
 
@@ -21,6 +21,5 @@ $( _ => {
 
     const root = $('#root');
     render(root);
-
-
+    
 });
