@@ -3,7 +3,7 @@
 const ScreenOne = (update) => {
 
   const section        = $('<section>',{class:'row'});
-  const divImgCarousel = $('<div>',{class:'owl-carousel'})
+  const divImgCarousel = $('<div>',{class:'owl-carousel fadeOut'})
   const divImg1        = $('<div>');
   const divImg2        = $('<div>');
   const divImg3        = $('<div>');
