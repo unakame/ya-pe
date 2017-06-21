@@ -132,3 +132,18 @@
 .divRow5 .h2_2{
   margin-top: -6%; !important
 }
+
+.divText6 h2{
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.divText6 p{
+  text-align: center;
+}
+
+.divImg6 .img2{
+  margin-top: 20%;
+}
