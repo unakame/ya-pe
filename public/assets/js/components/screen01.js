@@ -2,20 +2,20 @@
 
 const ScreenOne = (update) => {
 
-  const section        = $('<section>',{class:'row'});
-  const divImgCarousel = $('<div>',{class:'owl-carousel owl-theme'})
-  const divImg1        = $('<div>');
-  const divImg2        = $('<div>');
-  const divImg3        = $('<div>');
-  const img1           = $('<img>',{src:'img/icons/icon-people.png'});
-  const h3_1           = $('<h3>',{text:'Paga a tus amigos'});
-  const p_1            = $('<p>',{text:'Paga a quien quieras desde donde quieras, sin usar efectivo'});
-  const img2           = $('<img>',{src:'img/icons/happy-person.png'});
-  const h3_2           = $('<h3>',{text:'Sin número de cuenta'});
-  const p_2            = $('<p>',{text:'Elige a quien pagar desde tu lista de contactos'});
-  const img3           = $('<img>',{src:'img/icons/group-people.png'});
-  const h3_3           = $('<h3>',{text:'Gratis y seguro'});
-  const p_3            = $('<p>',{text:'La transferencia es inmediata y gratuita de una cuenta a otra'});
+  const section        = $('<section>');
+  const divImgCarousel = $('<div>',{class:'owl-carousel owl-theme carousel-box'})
+  const divImg1        = $('<div>',{class:'row'});
+  const divImg2        = $('<div>',{class:'row'});
+  const divImg3        = $('<div>',{class:'row'});
+  const img1           = $('<img>',{src:'img/icons/icon-people.png',class:'col s6 offset-s3'});
+  const h3_1           = $('<h2>',{text:'Paga a tus amigos',class:'col s8 offset-s2'});
+  const p_1            = $('<p>',{text:'Paga a quien quieras desde donde quieras, sin usar efectivo',class:'col s8 offset-s2'});
+  const img2           = $('<img>',{src:'img/icons/happy-person.png',class:'col s6 offset-s3'});
+  const h3_2           = $('<h2>',{text:'Sin número de cuenta',class:'col s10 offset-s1'});
+  const p_2            = $('<p>',{text:'Elige a quien pagar desde tu lista de contactos',class:'col s8 offset-s2'});
+  const img3           = $('<img>',{src:'img/icons/group-people.png',class:'col s6 offset-s3'});
+  const h3_3           = $('<h2>',{text:'Gratis y seguro',class:'col s10 offset-s1'});
+  const p_3            = $('<p>',{text:'La transferencia es inmediata y gratuita de una cuenta a otra',class:'col s8 offset-s2'});
   const divTextButton  = $('<div>',{class: 'container'});
   const button         = $('<button>',{text: 'REGISTRARME'});
 

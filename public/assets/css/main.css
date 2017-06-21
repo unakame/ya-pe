@@ -22,3 +22,21 @@
     opacity: 0.5;
     width: 12px;
 }
+
+.owl-item div img{
+  width: 50% !important;
+  height: 50%;
+}
+
+.owl-item div h2,
+.owl-item div p{
+  text-align: center;
+}
+
+.owl-item div h2{
+  font-weight: 600;
+}
+
+.carousel-box{
+  margin-top: 30%;
+}
