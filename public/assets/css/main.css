@@ -60,5 +60,45 @@
 }
 
 .img-phone{
-  margin-top: 19px;
+  margin-top: 15%;
+}
+
+.input-field button{
+  margin-top: 30%;
+}
+
+.divImg3 img,
+.divImg4 img{
+  margin-top: 19%;
+}
+.divText3 h2,
+.divText4 h2{
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.divText3 p,
+.divText4 p{
+  margin-top: -5%;
+}
+
+.divInput3 input,
+.divInput3 i,
+.divInput3 label{
+
+  margin-top: 10%;
+}
+
+.divInput3 label{
+  margin-left: 5%; !important
+}
+
+.divInput3 p{
+
+  margin-left: 20%;
+}
+
+.divInput3 i{
+  margin-left: 5%;
 }

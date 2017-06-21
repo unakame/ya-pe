@@ -14,7 +14,7 @@ const render = (root) =>{
   }else if (state.pantalla2== "true") {
     wrapper.append(ScreenTwo(update));
   }*/
-  wrapper.append(ScreenTwo(update));
+  wrapper.append(ScreenFour(update));
   root.append(wrapper);
 }
 
