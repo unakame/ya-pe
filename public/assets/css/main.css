@@ -78,6 +78,10 @@
   font-size: 22px;
 }
 
+.divText4 h2{
+  margin-top: 3%;
+}
+
 .divText3 p,
 .divText4 p{
   margin-top: -5%;
@@ -101,4 +105,8 @@
 
 .divInput3 i{
   margin-left: 5%;
+}
+
+.divRowForm4 p{
+  text-align: center;
 }
