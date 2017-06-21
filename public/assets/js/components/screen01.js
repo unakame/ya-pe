@@ -17,8 +17,8 @@ const ScreenOne = (update) => {
   const h3_3           = $('<h2>',{text:'Gratis y seguro',class:'col s10 offset-s1'});
   const p_3            = $('<p>',{text:'La transferencia es inmediata y gratuita de una cuenta a otra',class:'col s8 offset-s2'});
   const divTextButton  = $('<div>', {class:'row div-text-button'});
-  const divTextButton2 = $('<div>', {class:'col s10 offset-s1'})
-  const button         = $('<button>',{text: 'REGISTRARME'});
+  const divTextButton2 = $('<div>', {class:'col s10 offset-s1 col l4 offset-l4'})
+  const button         = $('<button>',{text: 'REGISTRARME', id: 'boton'});
 
 
   divImg1.append(img1);
@@ -38,6 +38,12 @@ const ScreenOne = (update) => {
   section.append(divImgCarousel);
   section.append(divTextButton);
 
+  $('#button').on('click',function(e){
+    e.preventDefault();
+    state.pantalla1= null;
+    state.pantalla2= "true";
+    update();
+  })
 
   return section;
 

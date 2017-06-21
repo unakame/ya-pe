@@ -44,3 +44,21 @@
 .div-text-button{
   margin-top: 10%;
 }
+
+.divText2{
+  text-align: center;
+}
+
+.divText2 h2{
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 0; !important
+}
+
+.h2-2{
+  margin-top: -6%;
+}
+
+.img-phone{
+  margin-top: 19px;
+}
