@@ -38,16 +38,6 @@ const ScreenOne = (update) => {
   section.append(divImgCarousel);
   section.append(divTextButton);
 
-
-
-  $('#button').on('click',function(e){
-    e.preventDefault();
-    // state.pantalla1= null;
-    // state.pantalla2= "true";
-    update();
-  })
-
-
   return section;
 
 
