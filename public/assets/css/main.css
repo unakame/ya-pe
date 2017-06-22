@@ -169,3 +169,24 @@
 .div-img-7 p{
   text-align: center;
 }
+
+.divPurple{
+  background-color: #451e36;
+}
+
+.divSection{
+  background-color: #451e36;
+}
+
+.eng{
+  margin-left: 40%;
+}
+
+.divTe h2,
+.divTe p{
+  text-align: center;
+}
+
+.divTe h2{
+  color: #FFF;
+}
