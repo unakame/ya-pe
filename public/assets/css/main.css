@@ -145,9 +145,17 @@
 }
 
 .divImg6 .img2{
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .div-row-scan{
   text-align: center;
+}
+
+.div-date{
+  margin-top: 10%;
+}
+
+.div-date button{
+  margin-left: 30%;
 }

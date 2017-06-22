@@ -18,24 +18,12 @@ const ScreenSix = (update) =>{
    const divRowScan  = $('<div>',{class:'row div-row-scan'})
    const imgScan     = $('<img>',{src:'img/icons/scan.png',class:''});
    const a           = $('<a>',{href:'#',text:'Escanear tarjeta',class:''});
-   const divDate     = $('<div>',{class:'row'});
-   const pDate       = $('<p>',{text:'Fecha de vencimiento'});
-   const inpDate1    = $('<input>',{type:'number',min:'1', max:'12',oninput:'maxLengthCheck(this)',maxLength:'2'});
-   const inpDate2    = $('<input>',{type:'number',min:'17',max:'24'});
-
-   /*<div class="row">
-     <form class="col s12">
-       <div class="row">
-         <div class="input-field col s6">
-           <i class="material-icons prefix">account_circle</i>
-           <input id="icon_prefix" type="text" class="validate">
-           <label for="icon_prefix">First Name</label>
-         </div>
-     img+anchor
-     Fecha de vencimiento _____/______
-       </div>
-     </form>
-   </div>*/
+   const divDate     = $('<div>',{class:'row div-date'});
+   const pDate       = $('<p>',{text:'Fecha de vencimiento',class:'col s6'});
+   const pSlash      = $('<p>',{text:'/',class:'col s1'});
+   const inpDate1    = $('<input>',{type:'number',min:'1', max:'12',oninput:'maxLengthCheck(this)',maxLength:'2',class:'col s2',placeholder:'Mes'});
+   const inpDate2    = $('<input>',{type:'number',min:'17',max:'24',maxLength2:'2',oninput:'maxLengthCheck2(this)',class:'col s2',placeholder:'Año'});
+   const button      = $('<button>',{text:'CONTINUAR',class:'btn disabled offset-s6'});
 
    divImg6.append(img1);
    divImg6.append(img2);
@@ -46,7 +34,9 @@ const ScreenSix = (update) =>{
    divRowScan.append(a);
    divDate.append(pDate);
    divDate.append(inpDate1);
+   divDate.append(pSlash);
    divDate.append(inpDate2);
+   divDate.append(button);
    form.append(divRowForm);
    form.append(divRowScan);
    form.append(divDate);
