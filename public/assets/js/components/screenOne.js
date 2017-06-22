@@ -21,6 +21,7 @@ const ScreenOne = (update) => {
   const button         = $('<button>',{text: 'REGISTRARME', id: 'boton'});
 
 
+
   divImg1.append(img1);
   divImg2.append(img2);
   divImg3.append(img3);
